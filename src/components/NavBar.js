@@ -15,7 +15,7 @@ function NavBar() {
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo">
                         <GiRockGolem className='navbar-icon' />
-                        MOONROCK
+                        ALL-KIRBY
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
